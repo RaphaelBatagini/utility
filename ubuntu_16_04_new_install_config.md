@@ -6,6 +6,7 @@
 4. Install Apache
 5. Install and configure MySQL
 6. Install PHP7
+7. Download and install Workbench
 
 ## 1. Wifi doesn't work
 Wifi doesnt work after ubuntu install, so I used a wifi adapter to connect to internet and run the follow commands
@@ -95,4 +96,36 @@ If the above doesn't work try the following
 
 ```
 sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
+```
+
+## 7. Download and install Workbench
+
+Download DEB package from here
+https://dev.mysql.com/downloads/workbench/
+
+Run the following command (Maybe you should have to change the file name)
+```
+sudo dpkg -i ~/Downloads/mysql-workbench-community.deb
+```
+
+And finally
+```
+sudo apt-get -f install
+```
+
+## 8. Install Sublime
+
+Add repository
+```
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+```
+
+Update everything
+```
+sudo apt-get update 
+```
+
+And then install
+```
+sudo apt-get install sublime-text-installer
 ```
