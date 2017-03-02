@@ -7,6 +7,7 @@
 5. Install and configure MySQL
 6. Install PHP7
 7. Download and install Workbench
+8. Install Sublime
 
 ## 1. Wifi doesn't work
 Wifi doesnt work after ubuntu install, so I used a wifi adapter to connect to internet and run the follow commands
