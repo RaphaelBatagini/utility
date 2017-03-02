@@ -1,4 +1,4 @@
-# Ubuntu 1.04 New Installation
+# Ubuntu 16.04 New Installation
 
 1. Wi-fi doesn't work
 2. Install git
