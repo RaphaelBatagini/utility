@@ -9,7 +9,7 @@
 7. Download and install Workbench
 8. Install Sublime
 
-## 1. Wifi doesn't work
+# 1. Wifi doesn't work #
 Wifi doesnt work after ubuntu install, so I used a wifi adapter to connect to internet and run the follow commands
 
 ```
@@ -19,12 +19,12 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
-## 2. Install git
+# 2. Install git #
 ```
 sudo apt-get install git
 ```
 
-## 3. Install terminator with Oh My Zsh
+# 3. Install terminator with Oh My Zsh #
 
 Install terminator
 ```
@@ -48,14 +48,14 @@ Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## 4. Install Apache
+# 4. Install Apache #
 
 Just run the following command
 ```
 sudo apt-get install apache2
 ```
 
-## 5. Install and configure MySQL
+# 5. Install and configure MySQL #
 
 ```
 sudo apt-get install mysql-server
@@ -83,7 +83,7 @@ Grant all privileges
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'%'; 
 ```
 
-## 6. Install PHP7
+# 6. Install PHP7 #
 ```
 sudo apt-get install php7.0 
 ```
@@ -99,12 +99,12 @@ If the above doesn't work try the following
 sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
 ```
 
-## 6.1. Install PHP GD
+## 6.1. Install PHP GD ##
 ```
 sudo apt-get install php-gd
 ```
 
-## 7. Download and install Workbench
+# 7. Download and install Workbench #
 
 Download DEB package from here
 https://dev.mysql.com/downloads/workbench/
@@ -119,7 +119,7 @@ And finally
 sudo apt-get -f install
 ```
 
-## 8. Install Sublime
+# 8. Install Sublime #
 
 Add repository
 ```
