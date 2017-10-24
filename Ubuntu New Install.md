@@ -24,7 +24,19 @@ $ sudo apt-get upgrade
 sudo apt-get install git
 ```
 
-# 3. Install terminator with Oh My Zsh #
+# 3. Install Meld for visual merge #
+
+Install meld
+```
+sudo apt-get install meld
+```
+
+Install dependencies
+```
+sudo apt-get install intltool itstool gir1.2-gtksource-3.0 libxml2-utils
+```
+
+# 4. Install terminator with Oh My Zsh #
 
 Install terminator
 ```
@@ -48,14 +60,14 @@ Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-# 4. Install Apache #
+# 5. Install Apache #
 
 Just run the following command
 ```
 sudo apt-get install apache2
 ```
 
-# 5. Install and configure MySQL #
+# 6. Install and configure MySQL #
 
 ```
 sudo apt-get install mysql-server
@@ -83,7 +95,7 @@ Grant all privileges
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'%'; 
 ```
 
-# 6. Install PHP7 #
+# 7. Install PHP7 #
 ```
 sudo apt-get install php7.0 
 ```
@@ -99,12 +111,12 @@ If the above doesn't work try the following
 sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
 ```
 
-## 6.1. Install PHP GD ##
+## 7.1. Install PHP GD ##
 ```
 sudo apt-get install php-gd
 ```
 
-# 7. Download and install Workbench #
+# 8. Download and install Workbench #
 
 Download DEB package from here
 https://dev.mysql.com/downloads/workbench/
@@ -119,7 +131,7 @@ And finally
 sudo apt-get -f install
 ```
 
-# 8. Install Sublime #
+# 9. Install Sublime #
 
 Add repository
 ```
