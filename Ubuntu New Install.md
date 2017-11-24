@@ -2,12 +2,14 @@
 
 1. Wi-fi doesn't work
 2. Install git
-3. Install terminator with Oh My Zsh
-4. Install Apache
-5. Install and configure MySQL
-6. Install PHP7
-7. Download and install Workbench
-8. Install Sublime
+3. Install Meld for visual merge
+4. Install terminator with Oh My Zsh
+5. Install Apache
+6. Install and configure MySQL
+7. Install PHP7
+8. Install composer
+9. Download and install Workbench
+10. Install Sublime
 
 # 1. Wifi doesn't work #
 Wifi doesnt work after ubuntu install, so I used a wifi adapter to connect to internet and run the follow commands
@@ -116,7 +118,14 @@ sudo apt-get install php7.0 php7.0-fpm php7.0-mysql -y
 sudo apt-get install php-gd
 ```
 
-# 8. Download and install Workbench #
+# 8. Install composer #
+
+To install composer run the following command
+```
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+```
+
+# 9. Download and install Workbench #
 
 Download DEB package from here
 https://dev.mysql.com/downloads/workbench/
@@ -131,7 +140,7 @@ And finally
 sudo apt-get -f install
 ```
 
-# 9. Install Sublime #
+# 10. Install Sublime #
 
 Add repository
 ```
