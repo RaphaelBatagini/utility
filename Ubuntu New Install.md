@@ -99,28 +99,7 @@ GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'%';
 
 # 7. Install PHP7 #
 ```
-sudo apt-get install php7.1 
-```
-OR
-
-```
-sudo apt-get install php
-```
-
-If the above doesn't work try the following
-
-```
-sudo apt-get install php7.1 php7.1-fpm php7.1-mysql -y
-```
-
-## 7.1. Install PHP GD ##
-```
-sudo apt-get install php-gd
-```
-
-## 7.2. Install mbstring extension ##
-```
-sudo apt-get install php7.1-mbstring
+sudo apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
 ```
 
 # 8. Install composer #
